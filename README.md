@@ -43,6 +43,6 @@ For any inquiries, email olabusiyi@gmail.com
 
 ## Live Demo
 
-This project is being hosted on Heroku, check it out here: https://shrouded-dawn-27659.herokuapp.com/
+This project is being hosted on Heroku, check it out here: https://aqueous-castle-97264.herokuapp.com/
 
 
