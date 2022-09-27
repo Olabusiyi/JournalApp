@@ -1,5 +1,3 @@
-//jshint esversion:6
-
 const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
@@ -20,7 +18,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-mongoose.connect('mongodb+srv://admin_ola:Sahayemi89@cluster1.aazpooy.mongodb.net/blogDB');
+mongoose.connect('mongodb+srv://admin_ola:" + "insert password created from MongoDB Atlas"+ "@cluster1.aazpooy.mongodb.net/blogDB');
 
 const postSchema = {
   title: String,
